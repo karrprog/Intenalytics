@@ -1,0 +1,26 @@
+a{
+  color: black;
+  font-family:Acme, cursive;
+  /* text-shadow: 1px 2px #636188; */
+  text-align: center;
+}
+
+.navbar{
+  text-align: center;
+  font-size: 1.75em;
+  background-color: #1E5515;
+  font-family: Acme, cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  font-family: 'Akaya Telivigala', cursive;
+  text-decoration: underline;
+  background-image:url(/img/Intenalytics-logo.png);
+  color: black;
+}
+
+
+/* #1E5515 */
