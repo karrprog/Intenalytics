@@ -1,5 +1,9 @@
+body{
+  background-color: #B9B3B3;
+}
+
 a{
-  color: black;
+  color: #B9B3B3;
   font-family:Acme, cursive;
   /* text-shadow: 1px 2px #636188; */
   text-align: center;
@@ -12,14 +16,27 @@ a{
   font-family: Acme, cursive;
   color: black;
   text-decoration: none;
+  border-bottom: 3px white solid;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-brand{
   font-size: 2em;
   font-family: 'Akaya Telivigala', cursive;
   text-decoration: underline;
-  background-image:url(/img/Intenalytics-logo.png);
+  background-image:url(img/Intenalytics-logo.png);
   color: black;
+}
+
+#logo{
+  height: 90px;
+  width: auto;
+  border: 3px white solid;
+}
+
+#logo:hover{
+  border: 3px black dashed;
 }
 
 
